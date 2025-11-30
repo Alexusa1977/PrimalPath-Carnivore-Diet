@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Language } from '../types';
 import { askCoach } from '../services/geminiService';
 import { UI_LABELS } from '../constants';
-import { MessageSquare, ArrowRight, Activity, Flame } from 'lucide-react';
+import { MessageSquare, ArrowRight, Activity, Flame, ShieldAlert } from 'lucide-react';
 
 interface DashboardProps {
   setCurrentView: (view: View) => void;
@@ -16,6 +16,7 @@ export const Dashboard: React.FC<DashboardProps> = ({ setCurrentView, fastingHou
   const [loading, setLoading] = useState(false);
   
   const t = UI_LABELS[language].dashboard;
+  const d = UI_LABELS[language].disclaimer;
 
   const handleAsk = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -105,6 +106,15 @@ export const Dashboard: React.FC<DashboardProps> = ({ setCurrentView, fastingHou
             {answer}
           </div>
         )}
+      </div>
+
+      {/* Disclaimer */}
+      <div className="mt-8 p-4 bg-red-950/20 border border-red-900/20 rounded-xl flex gap-3 items-start">
+         <ShieldAlert className="text-red-700 shrink-0 mt-0.5" size={18} />
+         <div className="text-xs text-gray-500 leading-relaxed">
+            <span className="font-bold block mb-1 text-gray-400">{d.title}</span>
+            {d.body}
+         </div>
       </div>
     </div>
   );

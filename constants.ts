@@ -51,8 +51,7 @@ export const UI_LABELS = {
     },
     disclaimer: {
       title: 'Medical Disclaimer',
-      body: 'This application is for informational purposes only and does not constitute medical advice. The content is not intended to be a substitute for professional medical advice, diagnosis, or treatment. Any diet or exercise program should be initiated with medical recommendation and evaluation. By continuing, you acknowledge that you understand this and use the app at your own risk.',
-      button: 'I Understand & Accept'
+      body: 'This application is for informational purposes only and does not constitute medical advice. The content is not intended to be a substitute for professional medical advice, diagnosis, or treatment. Any diet or exercise program should be initiated with medical recommendation and evaluation. By using this application, you acknowledge that you understand this and use the app at your own risk.'
     }
   },
   es: {
@@ -105,8 +104,7 @@ export const UI_LABELS = {
     },
     disclaimer: {
       title: 'Aviso Médico Legal',
-      body: 'Esta aplicación es solo para fines informativos y no constituye consejo médico. El contenido no pretende sustituir el consejo, diagnóstico o tratamiento médico profesional. Cualquier dieta o programa de ejercicio debe iniciarse con recomendación y evaluación médica. Al continuar, usted reconoce que entiende esto y usa la aplicación bajo su propio riesgo.',
-      button: 'Entiendo y Acepto'
+      body: 'Esta aplicación es solo para fines informativos y no constituye consejo médico. El contenido no pretende sustituir el consejo, diagnóstico o tratamiento médico profesional. Cualquier dieta o programa de ejercicio debe iniciarse con recomendación y evaluación médica. Al usar esta aplicación, usted reconoce que entiende esto y la usa bajo su propio riesgo.'
     }
   },
   pt: {
@@ -159,8 +157,7 @@ export const UI_LABELS = {
     },
     disclaimer: {
       title: 'Aviso Médico Legal',
-      body: 'Este aplicativo é apenas para fins informativos e não constitui aconselhamento médico. O conteúdo não se destina a substituir o conselho, diagnóstico ou tratamento médico profissional. Qualquer dieta ou programa de exercícios deve ser iniciado com recomendação e avaliação médica. Ao continuar, você reconhece que entende isso e usa o aplicativo por sua própria conta e risco.',
-      button: 'Entendo e Aceito'
+      body: 'Este aplicativo é apenas para fins informativos e não constitui aconselhamento médico. O conteúdo não se destina a substituir o conselho, diagnóstico ou tratamento médico profissional. Qualquer dieta ou programa de exercícios deve ser iniciado com recomendação e avaliação médica. Ao usar este aplicativo, você reconhece que entende isso e o usa por sua própria conta e risco.'
     }
   }
 };
